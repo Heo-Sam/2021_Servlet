@@ -45,12 +45,12 @@ public class Ex03 extends HttpServlet {
 		out.println("<hr>");
 		out.println("<h2>요청 정보 출력</h2>");
 		out.println("<ul>");
-		out.println("<li>요청 주소" + request.getRemoteAddr() + "</li>");
-		out.println("<li>요청 주소" + request.getRemoteHost() + "</li>");
-		out.println("<li>요청 포트" + request.getRemotePort() + "</li>");
-		out.println("<li>요청 사용자" + request.getRemoteUser() + "</li>");
-		out.println("<li>프로젝트 주소" + request.getContextPath() + "</li>");
-		out.println("<li>파일 주소" + request.getRequestURI() + "</li>");
+		out.println("<li>요청 주소 : " + request.getRemoteAddr() + "</li>");
+		out.println("<li>요청 주소 : " + request.getRemoteHost() + "</li>");
+		out.println("<li>요청 포트 : " + request.getRemotePort() + "</li>");
+		out.println("<li>요청 사용자 : " + request.getRemoteUser() + "</li>");
+		out.println("<li>프로젝트 주소 : " + request.getContextPath() + "</li>");
+		out.println("<li>파일 주소 : " + request.getRequestURI() + "</li>");
 		
 		out.println("</body>");
 		out.println("</html>");
